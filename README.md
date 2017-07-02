@@ -22,18 +22,19 @@ Data was acquired from [Inside AirBnB](http://insideairbnb.com/get-the-data.html
 3. Clustered listings.  
   * Investigated silhouette scores for KMeans clusters and DBScan clusters.  
 
-See [LAirBnB_neighborhood_topics.ipynb](https://github.com/janniec/lairbnb/LAirBnB_neighborhood_topics.ipynb).
+See [LAirBnB_neighborhood_topics.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_neighborhood_topics.ipynb).
 
 
 ## Visualization    
 
 2-D t-SNE visualizations of KMeans clusters.  
-See [LAirBnB_visualizations.ipynb](https://github.com/janniec/lairbnb/LAirBnB_visualizations.ipynb).
+See [LAirBnB_visualizations.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_visualizations.ipynb).  
+[Visuals](https://github.com/janniec/LAirBnB_Recommender/tree/master/viz)
 
 ## Recommender  
 
 The recommender takes in the index number of a neighborhood description ('input') and the number of desired recommendations. It uses NearestNeighbors to find similar neighborhood descriptions ('output'), filters out outputs that are outside of the input's cluster. The recommender will print out the input's and remaining outputs' neighborhood descriptions.  
-See [LAirBnB_recommender.ipynb](https://github.com/janniec/lairbnb/LAirBnB_recommender.ipynb).
+See [LAirBnB_recommender.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_recommender.ipynb).
 
 ## Next Steps  
 Next steps will be to incorporate features of the listings, so as to better tailor recommendations based on pricing, rental type, number of guests, etc.  
