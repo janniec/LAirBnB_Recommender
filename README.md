@@ -8,7 +8,7 @@
 **Solution:**  
   Build a content-based recommender using the neighborhood descriptions found in Los Angeles AirBnB listings.  The recommender will take in the index number for a neighborhood description, and return the descriptions of similar neighborhoods.  
 
-For an overview, please click [here](https://github.com/janniec/lairbnb/lairbnb_presentation.pdf "Presentation").
+For an overview, please click [here](https://github.com/janniec/LAirBnB_Recommender/blob/master/lairbnb_presentation.pdf "Presentation").
 
 ## Data  
 Data was acquired from [Inside AirBnB](http://insideairbnb.com/get-the-data.html), specifically the listings.csv.gz file for all Los Angeles listings as of April 2, 2017.
