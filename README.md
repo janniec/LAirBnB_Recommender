@@ -28,8 +28,7 @@ See [LAirBnB_neighborhood_topics.ipynb](https://github.com/janniec/LAirBnB_Recom
 ## Visualization    
 
 2-D t-SNE visualizations of KMeans clusters.  
-See [LAirBnB_visualizations.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_visualizations.ipynb).  
-[Visuals](https://github.com/janniec/LAirBnB_Recommender/tree/master/viz)
+See [LAirBnB_visualizations.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_visualizations.ipynb) & [Visuals](https://github.com/janniec/LAirBnB_Recommender/tree/master/viz).
 
 ## Recommender  
 
