@@ -6,10 +6,13 @@
   * Multiple neighborhoods have similar characteristics.  
 
 **Solution:**  
+
+  <img src="https://github.com/janniec/LAirBnB_Recommender/blob/master/images/lairbnb_logo.png" alt="LAirBnB Logo" align="middle" height=250px>      
+
   Build a content-based recommender using the neighborhood descriptions found in Los Angeles AirBnB listings.  The recommender will take in the index number for a neighborhood description, and return the descriptions of similar neighborhoods.  
 
 For an overview, please click [here](https://github.com/janniec/LAirBnB_Recommender/blob/master/lairbnb_presentation.pdf "Presentation").
-  
+
 ## Tools  
   * NLTK  
     * stopwords  
@@ -28,7 +31,7 @@ For an overview, please click [here](https://github.com/janniec/LAirBnB_Recommen
     * TSNE  
   * Matplotlib  
   * Regular Expressions  
-  
+
 ## Data  
 Data was acquired from [Inside AirBnB](http://insideairbnb.com/get-the-data.html), specifically the listings.csv.gz file for all Los Angeles listings as of April 2, 2017.
 
@@ -38,8 +41,10 @@ Data was acquired from [Inside AirBnB](http://insideairbnb.com/get-the-data.html
    * Tokenized & lemmatized.  
    * Vectorized text into bi-grams and sorted based on frequency.   
 2. Reduced dimensions into interpretable topics.  
+  <img src="https://github.com/janniec/LAirBnB_Recommender/blob/master/images/dimensions.png" alt="Dimensions" align="middle" height=250px>  
 3. Clustered listings.  
   * Investigated silhouette scores for KMeans clusters and DBScan clusters.  
+  <img src="https://github.com/janniec/LAirBnB_Recommender/blob/master/images/clusters.png" alt="Clusters" align="middle" height=250px>     
 
 See [LAirBnB_neighborhood_topics.ipynb](https://github.com/janniec/LAirBnB_Recommender/blob/master/notebooks/LAirBnB_neighborhood_topics.ipynb).
 
