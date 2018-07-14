@@ -18,7 +18,8 @@ For an overview, please click [here](https://github.com/janniec/LAirBnB_Recommen
     * stopwords  
     * WordPunctTokenizer  
     * sent_tokenize  
-    * WordNetLemmatizer  
+    * WordNetLemmatizer
+    * pos_tag 
   * SKLearn  
     * TfidfVectorizer  
     * NMF  
